@@ -17,6 +17,7 @@ Including another URLconf
 
 from django.contrib import admin
 from django.urls import path
+from app.views import hello_view
 
 urlpatterns = [
     path("hello/", hello_view),
